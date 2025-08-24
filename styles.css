@@ -1,1 +1,11 @@
 /*  your css code here. If applicable */
+ody { font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; }
+h1 { text-align: center; margin: 24px 0; }
+#blog { width: 640px; max-width: 95%; margin: 0 auto; }
+#blog > h2 { margin: 8px 0 16px; }
+.post { display: flex; gap: 16px; margin: 18px 0; align-items: flex-start; }
+.post .thumb img { width: 160px; height: 100px; object-fit: cover; display: block; }
+.post .content h3 { margin: 0 0 6px; font-size: 1.05rem; }
+.post .content p { margin: 0; font-size: 0.9rem; }
+.post a { text-decoration: none; }
+.post a:hover { text-decoration: underline; }
